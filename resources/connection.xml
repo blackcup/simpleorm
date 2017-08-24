@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configration>
+	<dataSource>
+		<property id="connectionType">jdbc</property>
+		<property id="username">acvoice</property>
+		<property id="password">acvoice123</property>
+		<property id="jdbcUrl">jdbc:mysql://10.201.195.151:3306/collegefamily?useSSL=false</property>
+		<property id="driverClass">com.mysql.jdbc.Driver</property>
+	</dataSource>
+</configration>

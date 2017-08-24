@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper>
+	<classOperation class="com.acvoice.pojo.IUserDao" table="User">
+		<operation id = "findUserByUsename" type="select">
+			where username = ?
+		</operation>
+		<operation id = "findAllUser" type="select" />
+		<operation id = "findUsers" type="select" />
+		<operation id = "addUser" type="insert" />
+		<operation id = "updateUser" type="update" >where username = ?</operation>
+		<operation id = "deleteUser" type="delete" >where username = ?</operation>
+		<operation id = "selectUser" type="select" selfDefined="true">select * from User where username = ?</operation>
+		<!-- operation id = "" type="update">
+		</operation>
+		<operation id = "" type="delete">
+		</operation>
+		<operation id = "" type="insert">
+		</operation>
+- -->
+	</classOperation>
+</mapper>
